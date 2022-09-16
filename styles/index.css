@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 8% 0;
+}
+
+.logo {
+    border: 1.5px solid #f0f8ff;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+    filter: invert(15%) sepia(39%) saturate(6541%) hue-rotate(338deg) brightness(96%) contrast(103%);
+}
+
+.logo h2 {
+    color: aliceblue;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.logo span {
+    color: #b1102a;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: 0.3s;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+main h1 {
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 50px;
+}
+
+main h1 a {
+    color: #ea1538;
+}
+
+main h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.orcamento form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.orcamento form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #ea1538;
+    outline: none;
+    border-radius: 30px;
+}
+
+.orcamento form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #ea1538;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px #000, 0 0 15px #868686;
+    top: 6px;
+    right: 6px;
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer img {
+    height: 38px;
+    width: 38px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+footer p {
+    color: white;
+    font-size: 17px;
+    margin-right: 60px;
+}

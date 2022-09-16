@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | ITrivinho TI</title>
+
+    <link rel="stylesheet" href="../styles/contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../imgs/coding-icon.jpg">
+                <h2>ITrivinho <span>TI</span></h2>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./sobre.html">A Empresa</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <table>
+                <caption><strong>Fale Conosco</strong></caption>
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td colspan="2"><input type="text" id="nome" name="nome" autofocus required></td>
+
+                    <td><label for="sobrenome">Sobrenome:</label></td>
+                    <td colspan="2"><input type="text" id="sobrenome" name="sobrenome"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td colspan="2"><input type="email" id="email" name="email" placeholder="email@email.com" required></td>
+
+                    <td><label for="telefone">Telefone:</label></td>
+                    <td colspan="2"><input type="tel" placeholder="(xx) x xxxx-xxxx"></td>
+                </tr>
+                <tr>
+                    <td><label for="sexo">Sexo:</label></td>
+                    <td class="radio">
+                        <label for="M">M</label>
+                        <input type="radio" name="sexo" id="masc" value="M">
+                    </td>
+                    <td class="radio">
+                        <label for="F">F</label>
+                        <input type="radio" name="sexo" id="fem" value="F">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mensagem">Mensagem:</label>
+                    </td>
+                    <td colspan="5">
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr class="btns">
+                    <td>
+                        <input class="btn" type="submit" value="Enviar">
+                    </td>
+                    <td>
+                        <input class="btn" type="reset" value="Apagar">
+                    </td>
+                </tr>
+            </table>
+
+
+        </form>
+    </main>
+
+    <footer>
+        <img src="../imgs/coding-icon.jpg" alt="Logo">
+        <p>ITrivinho TI - by Igor Trivinho</p>
+    </footer>
+
+</body>
+
+</html>
